@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Majidul (Fayeem) Mooktadeer.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+    
+
+</head>
+
+<body>
+    <header>Fashionista</header>
+        <div class="top">
+        <img src="How/Thousand Stars..jpg">
+        </div>
+        <div class="Button" 
+        style="overflow-x: hidden; overflow-y: hidden; opacity: 1; ">About </div> 
+        <div class="confirm_selection" 
+        style="overflow-x: hidden; overflow-y: hidden; opacity: 1; ">CV </div> 
+        <div class="rawrxd" 
+        style="overflow-x: hidden; overflow-y: hidden; opacity: 1; ">LinkedIn </div> 
+        <!-- <footer>
+                <p>Majidul [Fayeem] Mooktadeer </p>
+        </footer> -->
+<!-- Slide Show -->
+        <section class="Slideshow">
+        <img class="mySlides" src="How/giphy.gif">
+        <img class="mySlides" src="How/Snapchat-331064765.jpg">
+        <img class="mySlides" src="">
+      </section>
+      
+      <script>
+      // Automatic Slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 12000);
+      }
+      </script>
+</body>
+</html>

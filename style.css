@@ -1,0 +1,90 @@
+body{
+    /* background-image: url(https://media.giphy.com/media/YFHVEdkER5yLitA5h7/giphy.gif); */
+    background-image: url(How/saz.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-image: url(How/Snapchat-331064765.jpg); */
+}
+.confirm_selection {
+    background: black;
+    color: white;
+    font-family: Open Sans Condensed;
+    font-size: 45px;
+    -webkit-transition: text-shadow 0.3s linear;
+    -moz-transition: text-shadow 0.3s linear;
+    -ms-transition: text-shadow 0.3s linear;
+    -o-transition: text-shadow 0.3s linear;
+    transition: text-shadow 0.3s linear;
+}
+.confirm_selection:hover {
+    text-shadow: 0 0 10px red;
+}
+
+.Button {
+    background: white;
+    color: black;
+    font-family: Open Sans Condensed;
+    font-size: 45px;
+    -webkit-transition: text-shadow 0.3s linear;
+    -moz-transition: text-shadow 0.3s linear;
+    -ms-transition: text-shadow 0.3s linear;
+    -o-transition: text-shadow 0.3s linear;
+    transition: text-shadow 0.3s linear;
+}
+.Button:hover {
+    text-shadow: 0 0 10px blue;
+}
+
+.rawrxd {
+    background: white;
+    color:black;
+    font-family: Open Sans Condensed;
+    font-size: 45px;
+    -webkit-transition: text-shadow 0.3s linear;
+    -moz-transition: text-shadow 0.3s linear;
+    -ms-transition: text-shadow 0.3s linear;
+    -o-transition: text-shadow 0.3s linear;
+    transition: text-shadow 0.3s linear;
+}
+.rawrxd:hover {
+    text-shadow: 0 0 10px seagreen;
+}
+.top img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+/* Snow*/
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+footer{
+    background: white;
+    display: flex;
+    align-content: flex-end;
+}
+header{
+    color: white;
+    text-align: center;
+}
+.Slideshow img{
+    text-align: right;
+    width: 50%;
+    height: 50%;
+}
